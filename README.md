@@ -10,14 +10,7 @@ HELLO - Displays gold required to win the game
 GOLD - Shows number of gold the player currently has
 MOVE (N, S, E, W) - The player can only input either MOVE N for move 'north' etc., moves the player's character one space to the direction told
 PICKUP - If the player is on a gold tile, the player can pickup the gold and 'SUCCESS' is printed, if not on a gold tile, 'FAIL' is printed to the user
-LOOK - Displays a 5x5 grid of the map around the player like so:
-
-###..
-#..G.
-..P..
-.....
-#####
-
+LOOK - Displays a 5x5 grid of the map around the player
 QUIT - Game is quit, 'WIN' followed by success message printed if player enters command on exit tile with required gold, otherwise 'LOSE' printed
 
 The player is designated the letter 'P' on the map and the bot 'B'
